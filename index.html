@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Shapes</title>
+</head>
+<body>
+    <div class="body">
+        <div>
+            <h1>SHAPE GENERATOR</h1>
+        </div>
+        <div class="input">
+            <div>
+                <label for="circle">Circle</label>
+                <input type="radio" name="shape" id="circle" value="Circle">
+                <label for="square">Square</label>
+                <input type="radio" name="shape" id="square" value="Square">
+                <label for="rectangle">Rectangle</label>
+                <input type="radio" name="shape" id="rectangle" value="Rectangle">
+            </div>
+            <div>
+                <label for="number">Enter the number of shapes to print</label>
+                <input type="number" id="number">
+            </div>
+        </div>
+        <div>
+            <button onclick="shapes()">CLICK</button>
+        </div>
+    </div>
+    <div class="print">
+        <div class="shape"></div>
+    </div>
+    
+</body>
+</html>
